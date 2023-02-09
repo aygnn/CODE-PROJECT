@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+body{
+  font-family: "Muli", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #212529;
+    background-color: transparent;
+}

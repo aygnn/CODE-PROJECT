@@ -1,0 +1,51 @@
+.section2{
+    .row{
+        margin: 44px;
+
+    }
+    .card1{
+        width: 443px;
+        height: 248px;
+        position: relative;
+        transition: all 0.3s;
+        border-radius: 8px;
+       
+
+        img{
+            min-width: 100%;
+            width: 443px;
+            height: 248px;
+            border-radius: 8px;
+        }
+
+        .text{
+            position: absolute;
+                left: 0;
+                top: 0;
+                display: flex;
+                -webkit-box-pack: center;
+                justify-content: center;
+                width: 100%;
+                -webkit-box-align: center;
+                align-items: center;
+                height: 100%;
+                h4{
+                    color: #252525;
+                    font-weight: 700;
+                    padding: 11px 28px;
+                    background: #ffffff;
+                    border-radius: 2px;
+                }
+        }
+      
+        
+        
+    }
+    .card1:hover{
+        transform: scale(1.02);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+       
+
+    }
+    
+}

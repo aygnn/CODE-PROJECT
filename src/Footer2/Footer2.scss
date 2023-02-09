@@ -1,0 +1,120 @@
+.footer2 {
+    background: #191919;
+    padding-top: 75px;
+
+    .row {
+        .ul1 {
+
+            ul {
+                text-align: left;
+                margin-top: 10%;
+
+                li {
+                    list-style: none;
+                    color: #b2b2b2;
+                    font-size: 16px;
+                    line-height: 30px;
+                }
+            }
+
+            .social {
+                padding-top: 12px;
+                padding-right: 21%;
+
+                a {
+                    display: inline-block;
+                    height: 40px;
+                    width: 40px;
+                    background: #434445;
+                    color: #ffffff;
+                    text-align: center;
+                    line-height: 40px;
+                    border-radius: 50%;
+                    margin-right: 7px;
+                    position: relative;
+                    z-index: 1;
+
+                    font-size: 18px;
+
+
+                }
+
+
+                a:hover {
+                    background: #e7ab3c;
+                    transition: 0.3s;
+
+
+
+
+                }
+            }
+
+            .logo {
+                margin-right: 49%;
+            }
+        }
+
+        .ul2 {
+
+            h5 {
+                color: #ffffff;
+                font-weight: 700;
+                margin-bottom: 26px;
+                text-align: left;
+
+            }
+
+            ul {
+                margin-left: -10px;
+                text-align: left;
+                list-style: none;
+
+                li {
+                    a {
+                        line-height: 36px;
+                        font-size: 16px;
+                        color: #b2b2b2;
+                        text-decoration: none;
+
+                    }
+
+                }
+            }
+
+            p {
+                color: #b2b2b2;
+                text-align: left;
+                line-height: 26px;
+            }
+
+            form {
+                text-align: left;
+
+                input {
+                    color: #b2b2b2;
+                    background: #303030;
+                    width: 65%;
+                    height: 46px;
+                    font-size: 16px;
+                    border: none;
+                    padding-left: 20px;
+                }
+
+                button {
+                    display: inline-block;
+                    color: #ffffff;
+                    background: #e7ab3c;
+                    font-size: 13px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    border: 1px solid #e7ab3c;
+                    position: absolute;
+
+                    padding: 13px 20px 12px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

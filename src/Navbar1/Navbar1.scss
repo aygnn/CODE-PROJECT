@@ -1,0 +1,97 @@
+.navbar1{
+    height: 128px;
+    .container{
+        margin-top: 32px;
+        .row{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+            .col-sm-7{
+                .advanced-search{
+                    .group{
+                        input{
+                            width: 424px;
+                            height: 50px;
+                            border: 1px solid;
+                            font-size: 16px;
+                            color: #d1d1d1;
+                            padding-left: 20px;
+                        }
+                        button{
+                                font-size: 16px;
+                                color: #ffffff;
+                                position: absolute;
+                                
+                                border: 1px solid #e7ab3c;
+                                background: #e7ab3c;
+                                padding: 12px 16px 12px;
+                                cursor: pointer;
+                                div{
+                                    color: white !important;
+                                }
+                              
+                        }
+                    }
+                }
+            }
+
+            .col-sm-3{
+                .icons{
+                    ul{
+                        display: flex;
+                        justify-content: flex-start;
+                        list-style: none;
+                        flex-direction: row;
+                        gap: 12px;
+                        font-size: 23px;
+                        
+
+                        li{
+                            .fav{
+                                                            
+                                top: 7px;
+                                left: -12px;
+
+                                span{
+                                        position: absolute;
+                                        // right: 256px;
+                                    
+                                        height: 15px;
+                                        width: 15px;
+                                        background: #e7ab3c;
+                                        color: #ffffff;
+                                        border-radius: 50%;
+                                        font-size: 11px;
+                                        font-weight: 700;
+                                        text-align: center;
+                                        line-height: 15px;
+                                }
+                            }
+                            .basket{
+                                
+                                    top: 7px;
+                                    left: -12px;
+
+                                span{
+                                        position: absolute;
+                                        // right: 219px;
+                                    
+                                        height: 15px;
+                                        width: 15px;
+                                        background: #e7ab3c;
+                                        color: #ffffff;
+                                        border-radius: 50%;
+                                        font-size: 11px;
+                                        font-weight: 700;
+                                        text-align: center;
+                                        line-height: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
